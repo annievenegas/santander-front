@@ -1,11 +1,13 @@
 body {
-    background-color: #f49
+    background-color: pink
+    /* background-image: url( <!-- body background="https://www.theminimalists.com/wp-content/uploads/2017/12/david-van-dijk-255503.jpg" -->'); */
 }
 
 
 
 h1 { 
     color:cadetblue;
+    text-align: center;
 
 }
 p {
@@ -66,3 +68,45 @@ li {
     vertical-align: right;
 
 }
+
+.video {
+    margin: 100px;
+    display: flex;
+}
+
+.videop{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.videop img{
+    width: 120px;
+    margin-top: 10px;
+}
+
+.text h2 {
+    margin-left: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    color: #025157;
+}
+
+.text p{
+    margin-left: 30px;
+    font-size: 16px;
+    color:#343434;
+    padd
+
+}
+
+.formy {
+    margin-left: 30px;
+}
+
+  .publish > form p {
+
+    color: #025157;
+    margin-right: 24px;
+  }
+
