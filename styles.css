@@ -1,8 +1,21 @@
+
+main {
+    margin-top: 285px;
+    text-align: center;
+  }
+
 body {
-    background-color: pink
+    background-color: #fffbf7
     /* background-image: url( <!-- body background="https://www.theminimalists.com/wp-content/uploads/2017/12/david-van-dijk-255503.jpg" -->'); */
 }
 
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fffbf7;
+  }
 
 
 h1 { 
@@ -96,8 +109,6 @@ li {
     margin-left: 30px;
     font-size: 16px;
     color:#343434;
-    padd
-
 }
 
 .formy {
@@ -105,7 +116,6 @@ li {
 }
 
   .publish > form p {
-
     color: #025157;
     margin-right: 24px;
   }
