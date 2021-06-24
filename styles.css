@@ -1,6 +1,6 @@
 
 main {
-    margin-top: 285px;
+    margin-top: 205px;
     text-align: center;
   }
 
@@ -11,11 +11,23 @@ body {
 
 .fixed-header {
     position: fixed;
+    z-index: 3;
     top: 0;
     left: 0;
     right: 0;
     background-color: #fffbf7;
   }
+
+  .button {
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+  }
+
 
 .encabezados{
    top: 30;
@@ -23,15 +35,17 @@ body {
 }
 
 h1 { 
+
     color:cadetblue;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
+
 p {
-color: #8b8b8bcc;
+color: black;
 font-family: verdana;
-font-size: 20px;
+font-size: 16px;
 }
 
 
@@ -125,3 +139,186 @@ li {
     margin-right: 24px;
   }
 
+
+.features{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: #025157;
+    padding: 100px;
+   
+}
+
+.feature-art {
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: 350px 150px;
+    grid-template-rows: 80px 130px 80px;
+    background-color: #fffbf7;
+    margin: 10px;
+    overflow: hidden;
+    padding-bottom: 40px;
+}
+
+.card-text {
+    display: grid;
+    grid-column: 1;
+    grid-row: 1/ span 3;
+    padding: 30px 30px;
+}
+
+.fotito {
+    padding: 25px 0;
+    grid-column: 2;
+    grid-row: 1/ span 3;
+
+}
+
+.feature-art h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: left;
+}
+
+.feature-art p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+
+.feature-art h6{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #67b54b;
+    font-size: 16px;
+}
+
+
+.nothero {
+    display: flex;
+    background-color: #a1d683;
+    padding-left: 70px;
+    padding: 100px;
+}
+
+.nothero h2 {
+    color: #025157;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 48px;
+}
+
+.textito{
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+.textito button{
+    margin: 30px 0;
+    background-color: #025157;
+}
+
+.carrousel {
+    border-radius: 8px;
+    background-color: #fffbf7;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    font-family:Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    padding: 50 px
+}
+
+.carrousel button{
+    margin: 0 50px;
+    background-color: #025157;
+    justify-content: center;
+}
+
+.carrousel h5{
+    color: #025157;
+    font-size: 20px;
+}
+
+.pics {
+    display: block;
+
+    
+}
+
+.company {
+    background-color: khaki;
+    padding: 50px 10px;
+    border-radius: 50%;
+    border: 0;
+    position: relative;
+    left: 50px; 
+    bottom: 120px;
+}
+
+
+.nuevotextito {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    padding: 0 50px;
+    bottom: 120px;
+}
+
+.shop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shop h6{
+ color: rgb(139, 139, 139);
+ padding: 10px;
+}
+
+.promo {
+    padding: 50px;
+    text-align: center;
+}
+
+.promo button {
+   background-color: #025157;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.more-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.cardy {
+    background-color: white;
+    text-align: center;
+    margin: 10px;
+    outline-style: solid;
+    outline-color: rgb(180, 180, 180);
+    outline-width: 1px;
+    border-radius: 8px;
+    padding: 10px;
+    width: 250px;
+    overflow: hidden;
+}
+
+.cardy h1{
+    color: #025157;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+.cardy h5{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #67b54b;
+    font-size: 16px;
+}
+
+.promo-text {
+    text-align: center;
+}
