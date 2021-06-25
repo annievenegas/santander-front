@@ -272,9 +272,15 @@ li {
     justify-content: center;
     align-items: center;
 }
-.shop h6{
+.shop h6 {
  color: rgb(139, 139, 139);
  padding: 10px;
+}
+
+.hero-promo h1 {
+    color: #025157;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
 }
 
 .promo {
