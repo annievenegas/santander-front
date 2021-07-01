@@ -97,11 +97,11 @@ li {
     width: 15%;
 }
 
-.navbar {
+/*.navbar {
     width: 70%;
     text-align: left;
     color: #025157;
-}
+}*/
 
 .actions > * {
     margin: 10px 0 10px 0;
@@ -345,9 +345,14 @@ li {
 
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px) {
-    .navbar, .actions{
+   /* .navbar, .actions{
         display: none;
     
+    }*/
+
+    .carousel-inner { 
+        max-height: 100%;
+        height: 500px;
     }
 
     h1 {
