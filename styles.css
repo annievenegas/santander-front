@@ -48,6 +48,20 @@ font-family: verdana;
 font-size: 16px;
 }
 
+.publish {
+    display: flex;
+    flex-direction: column;
+  }
+
+.publish div {
+    padding: 5px;
+}
+
+.publish div input{
+    margin: 5px;
+}
+
+
 
 button {
     color: #fff;
@@ -327,4 +341,97 @@ li {
 
 .promo-text {
     text-align: center;
+}
+
+/** dispositivos móviles en vista viewport (vertical) */
+@media (max-width: 575px) {
+    .navbar, .actions{
+        display: none;
+    
+    }
+
+    h1 {
+        font-size: 24;
+    }
+
+    main {
+        margin-top: 100px;
+      }
+
+    .capterra-img{
+        width: 100%;
+    }
+
+    .publish {
+        text-align: center;
+    }
+
+    .video {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .videop > video {
+        width: 100%;
+    }
+
+    .publish h3 {
+        font-size: 20px;
+        line-height: 1.2;
+     }
+
+     .features{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        background-color: #025157;
+        padding: 10px;
+     }
+
+     .feature-art {
+        border-radius: 8px;
+        display: grid;
+        grid-template-columns: 280px 100px;
+        grid-template-rows: 80px 130px 80px;
+        background-color: #fffbf7;
+        margin: 10px;
+        overflow: hidden;
+        padding-bottom: 50px;
+    }
+    
+    .card-text {
+        
+        display: grid;
+        grid-column: 1;
+        grid-row: 1/ span 3;
+        padding: 30px 30px;
+    }
+    
+    .fotito {
+        padding: 25px 0;
+        grid-column: 2;
+        grid-row: 1/ span 3;
+    
+    }
+
+}
+
+/** dispositivos pequeños en vista landscape (horizontal) */
+@media (min-width: 576px) and (max-width: 767px) {
+  
+}
+
+/** dispositivos medianos (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+  
+}
+
+/** dispositivos grandes (desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+
+/** dispositivos extra grandes (monitores grandes, tvs) */
+@media (min-width: 1200px) {
+  
 }

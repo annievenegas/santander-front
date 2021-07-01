@@ -4,6 +4,12 @@
 <head>
     <!-- Aquí va información importante pero no visible dentro del navegador -->
     <title>Matcha</title>
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+    crossorigin="anonymous"
+  />
     <link rel="stylesheet" href="./styles.css">
 
 
@@ -74,22 +80,22 @@
             some form, by injected humour, or randomised words</h6>
     </main>
 
-    <form action=""></form>
-    Nombre<input type="text"> <br>
-    Apellido<input type="text"> <br>
-    Edad<input type="number"> <br>
-    Email<input type="email"> <br>
-    Contraseña<input type="password"> <br>
-    <button type="submit">Enviar</button>
-    <br>
-    <br>
-    <br>
-    <img alt="Logo de matcha" src="https://getmatcha.com/wp-content/themes/getmatcha/img/capterra.png" />
+    <article class="publish">
+        <form action="">
+            <div>Nombre<input type="text"> </div>
+            <div> Apellido<input type="text"></div>
+            <div> Edad<input type="number"></div>
+            <div> Email<input type="email"></div>
+            <div>Contraseña<input type="password"></div>
+            <div><button type="submit">Enviar</button></div>
+        </form>
+    </article>
+
+    <img class="capterra-img" alt="5stars" src="https://getmatcha.com/wp-content/themes/getmatcha/img/capterra.png" />
 
     <section class="video">
         <section class="videop">
-            <video controls height="500px"
-                poster="https://www.eluniversal.com.mx/sites/default/files/2018/07/10/matcha_beneficios_te_verde.jpg">
+            <video controls poster="https://www.eluniversal.com.mx/sites/default/files/2018/07/10/matcha_beneficios_te_verde.jpg">
 
                 <source type="video/mp4"
                     src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4">
@@ -224,73 +230,74 @@
 
     </section>
 
-    <section class= "wok">
-        <div class= "promo">
-            <div class= "hero-promo">
+    <section class="wok">
+        <div class="promo">
+            <div class="hero-promo">
                 <h1> How does Matcha work?</h1>
                 <p>Your blog can be so much more than window dressing. Use Matcha’s <br>
                     simple formula to transform your blog into an ecommerce growth engine. </p>
             </div>
             <button>Explore the Platform</button>
         </div>
-        <section class= "more-cards">
-            <section class= "cardy">
-                <div class= "media">
-                    <div class= "icon">
-                    <img height= "20px" alt= "list icon"
-                        src= "https://getmatcha.com/wp-content/themes/getmatcha/img/icon_content.png">
+        <section class="more-cards">
+            <section class="cardy">
+                <div class="media">
+                    <div class="icon">
+                        <img height="20px" alt="list icon"
+                            src="https://getmatcha.com/wp-content/themes/getmatcha/img/icon_content.png">
                     </div>
-                    <img height= "300px" alt= "publish illustration"
-                        src= "https://getmatcha.com/wp-content/themes/getmatcha/img/ill-publish.png">
+                    <img height="300px" alt="publish illustration"
+                        src="https://getmatcha.com/wp-content/themes/getmatcha/img/ill-publish.png">
                 </div>
-                <div class= "promo-text">
+                <div class="promo-text">
                     <h1> Publish </h1>
                     <p>Effortlessly fill your blog with content that shoppers want to read. </p>
                     <h5>Publish instantly →</h5>
                 </div>
             </section>
-            <section class= "cardy">
-                <div class= "media">
-                    <div class= "icon">
-                    <img height= "20px" alt= "promote icon"
-                        src= "https://getmatcha.com/wp-content/themes/getmatcha/img/icon_channels.png">
-                        </div>
-                    <img height= "300px" alt= "promote illustration"
-                        src= "https://getmatcha.com/wp-content/themes/getmatcha/img/ill-promote.png">
+            <section class="cardy">
+                <div class="media">
+                    <div class="icon">
+                        <img height="20px" alt="promote icon"
+                            src="https://getmatcha.com/wp-content/themes/getmatcha/img/icon_channels.png">
+                    </div>
+                    <img height="300px" alt="promote illustration"
+                        src="https://getmatcha.com/wp-content/themes/getmatcha/img/ill-promote.png">
                 </div>
-                <div class= "promo-text">
+                <div class="promo-text">
                     <h1> Promote </h1>
                     <p>Use articles in email, social, and content ads to attract more site visitors. </p>
                     <h5>Drive more site visitors →</h5>
                 </div>
             </section>
-            <section class= "cardy">
-                <div class= "media">
-                    <div class= "icon">
-                    <img height= "20px" alt= "funnel icon"
-                        src= "https://getmatcha.com/wp-content/themes/getmatcha/img/icon_funnel.png">
+            <section class="cardy">
+                <div class="media">
+                    <div class="icon">
+                        <img height="20px" alt="funnel icon"
+                            src="https://getmatcha.com/wp-content/themes/getmatcha/img/icon_funnel.png">
                     </div>
-                    <img height= "300px" alt= "capture illustration"
-                        src= "https://getmatcha.com/wp-content/themes/getmatcha/img/ill-capture.png">
+                    <img height="300px" alt="capture illustration"
+                        src="https://getmatcha.com/wp-content/themes/getmatcha/img/ill-capture.png">
                 </div>
-                <div class= "promo-text">
+                <div class="promo-text">
                     <h1> Capture</h1>
-                    <p>Turn readers into email subscribers and subscribers into customers.  </p>
+                    <p>Turn readers into email subscribers and subscribers into customers. </p>
                     <h5>Grow your email list →</h5>
                 </div>
             </section>
-            <section class= "cardy">
-                <div class= "media">
-                    <div class= "icon">
-                    <img height= "20px" alt= "chart icon"
-                        src= "https://getmatcha.com/wp-content/themes/getmatcha/img/icon_chart.png">
+            <section class="cardy">
+                <div class="media">
+                    <div class="icon">
+                        <img height="20px" alt="chart icon"
+                            src="https://getmatcha.com/wp-content/themes/getmatcha/img/icon_chart.png">
                     </div>
-                    <img height= "300px" alt= "measure illustration"
-                        src= "https://getmatcha.com/wp-content/themes/getmatcha/img/ill-measure.png">
+                    <img height="300px" alt="measure illustration"
+                        src="https://getmatcha.com/wp-content/themes/getmatcha/img/ill-measure.png">
                 </div>
-                <div class= "promo-text">
+                <div class="promo-text">
                     <h1> Measure</h1>
-                    <p> See what’s working and what’s not to easily optimize for more traffic, email subscribers, and sales.</p>
+                    <p> See what’s working and what’s not to easily optimize for more traffic, email subscribers, and
+                        sales.</p>
                     <h5>Track performance →</h5>
                 </div>
             </section>
