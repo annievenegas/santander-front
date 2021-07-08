@@ -343,6 +343,15 @@ li {
     text-align: center;
 }
 
+
+
+.carousel-item img{
+    max-width: 20%;
+    align-items: center;
+}
+
+
+
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px) {
    /* .navbar, .actions{
